@@ -1,0 +1,13 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Script Runner</title>
+</head>
+<body>
+    <javascript:var autoclicker = setInterval(function(){ try { Game.lastClick -= 1000; document.getElementById('bigCookie').click(); } catch (err) { console.error('Stopping auto clicker'); clearInterval(autoclicker); } }, 1);>
+        // Your JavaScript code goes here
+        alert('Hello, world!');
+    </script>
+</body>
+</html>

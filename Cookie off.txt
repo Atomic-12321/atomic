@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Script Runner</title>
+</head>
+<body>
+    <javascript:clearInterval(autoclicker);>
+        // Your JavaScript code goes here
+        alert('Hello, world!');
+    </script>
+</body>
+</html>
